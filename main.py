@@ -149,6 +149,7 @@ while game:
         start.draw()
         exit.draw()
 
+    
     if not finish:
         window.blit(background, (0, 0))
         for heart in hearts:
